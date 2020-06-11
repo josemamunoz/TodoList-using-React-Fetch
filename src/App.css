@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+
+.close {
+  display: none;
+}
+
+li:hover .close{
+  display: block;
+}
+
+/* al seleccionar el boton con className="close" diplay:none ocultamos el boton que contiene la "x" para eliminar, 
+luego mostramos este boton con li:hover .close display:block , en otras palabras, el boton se muestra cuando pasamos 
+por el elemento de lista   */
+
+h1{
+  text-align: center;
+  color: aliceblue;
+  padding-top: 30px;
+ 
+}
+.col-border{
+  color: aliceblue;
+}
+.container{
+  background-color: darkcyan;
+  font-family: 'Lobster', cursive;
+  font-size: small;
+ 
+}
+
+
